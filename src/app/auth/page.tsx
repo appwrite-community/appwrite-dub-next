@@ -1,6 +1,5 @@
-import { getLoggedInUser } from '@/lib/server/appwrite';
 import { ID } from 'node-appwrite';
-import { createAdminClient } from '@/lib/server/appwrite';
+import { createAdminClient, getLoggedInUser } from '@/lib/server/appwrite';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { addDubLead } from '@/lib/server/dub';
